@@ -449,7 +449,7 @@ footer .link-footer ul li{
       padding-right: 25px;
   }
   input {
-      width: 232px;
+      width: 100%;
   }
   .btn-desktop{
       display: none;
