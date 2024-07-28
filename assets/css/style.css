@@ -468,7 +468,7 @@ footer .link-footer ul li{
       color: white;
   }
   .filtre{
-      display: flex;
+      display: block;
       justify-content: space-between;
       flex-direction: row;
       flex-wrap: wrap;
@@ -478,10 +478,11 @@ footer .link-footer ul li{
       margin-bottom: 20px;
   }
   .filter{
-      display: flex;
+      display: grid;
       flex-direction: row;
       flex-wrap: wrap;
       margin-right:-33px;
+      grid-template-columns: 1fr 1fr;
   }
   .btn-filter{
       margin-bottom: 20px;
