@@ -390,6 +390,10 @@ footer .link-footer ul li{
   .hebergements,.populaires{
     width:100%;
   }
+  .populaires-cards{
+    display:flex;
+    gap:20px;
+  }
 
 }
 
