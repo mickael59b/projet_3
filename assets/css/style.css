@@ -140,8 +140,8 @@ ul.menu li{
   gap:15px;
 }
 .btn-filter{
-  border: 3px solid #F2F2F2;
-  border-radius: 30px;
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
   padding: 11px;
   padding-left: 35px;
 }
