@@ -369,6 +369,9 @@ footer .link-footer ul li{
 /****** Media queries ***********/
 /* Large devices (desktops, greater/equal than 1025px) */
 @media (min-width: 1024px) {
+  .main-container{
+    padding:0 50px 0 50px;
+  }
   ul.menu li.active{
     border-top: 2px solid #0065FC;
     color: #0065FC; 
