@@ -393,7 +393,7 @@ footer .link-footer ul li{
     grid-gap: 20px;
     grid-template-columns:1fr;
   }
-  .hebergements-and-populaires section{
+  section{
     border-radius:15px;
   }
   .hebergements,.populaires{
