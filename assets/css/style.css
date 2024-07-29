@@ -243,6 +243,7 @@ ul.menu li{
   border-radius: 16px 16px 0px 0px;
 }
 .colum .card .card-body {
+  display:flex;
   font-size: 100%;
   padding-left: 16px;
   padding-right: 16px;
