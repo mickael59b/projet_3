@@ -394,6 +394,9 @@ footer .link-footer ul li{
     display:flex;
     gap:20px;
   }
+  .populaires-cards .card {
+    max-width:274.67px;
+  }
 
 }
 
