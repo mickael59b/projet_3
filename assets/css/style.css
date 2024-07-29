@@ -214,7 +214,6 @@ ul.menu li{
 
 .hebergements-and-populaires section {
   background-color: var(--main-bg-color);
-  border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
 }
@@ -379,9 +378,12 @@ footer .link-footer ul li{
   }
 }
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (min-width:767.98px) and (max-width: 1024px) {
   .hebergements-and-populaires {
       flex-direction: column;
+  }
+  .hebergements-and-populaires section{
+    border-radius: 20px;
   }
 
   .hebergements {
