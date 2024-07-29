@@ -385,6 +385,9 @@ footer .link-footer ul li{
   .filtre{
     display:block
   }
+  .filtre h1{
+    margin-bottom:19px;
+  }
   .hebergements-and-populaires{
     display:grid;
     grid-gap: 20px;
