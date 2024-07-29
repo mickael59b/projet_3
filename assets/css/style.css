@@ -376,7 +376,7 @@ footer .link-footer ul li{
     border-top: 2px solid #0065FC;
     color: #0065FC; 
   }
-  .activites .colum .card{
+  .activites .colum .card .card-body{
     position: absolute;
   }
   .activites .colum .card img {
