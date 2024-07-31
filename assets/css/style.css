@@ -376,9 +376,14 @@ footer .link-footer ul li{
   .main-container{
     padding:0 50px 0 50px;
   }
-  ul.menu li:hover{
-    border-top: 2px solid #0065FC;
-    color: #0065FC; 
+  .menu a:hover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px; /* Vous pouvez changer l'épaisseur de la bordure ici */
+            background-color: #000; /* Vous pouvez changer la couleur de la bordure ici */
   }
   .activites .colum .card .card-body{
     position: absolute;
