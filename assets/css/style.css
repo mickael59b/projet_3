@@ -444,7 +444,7 @@ footer .link-footer ul li{
       border-bottom: 4px solid #F2F2F2;
       padding-bottom: 20px;
   }
-  ul.menu li.active{
+  ul.menu li:hover{
       border-bottom: 3px solid #0065FC;
   }
   .main-container{
