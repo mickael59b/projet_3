@@ -376,7 +376,7 @@ footer .link-footer ul li{
   .main-container{
     padding:0 50px 0 50px;
   }
-  ul.menu li a:hover{
+  ul.menu li:hover{
     border-top: 2px solid #0065FC;
     color: #0065FC; 
   }
