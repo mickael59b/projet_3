@@ -216,6 +216,7 @@ ul.menu li{
 .hebergements-and-populaires section {
   background-color: var(--main-bg-color);
   padding: 30px;
+  border-radius:15px;
   box-sizing: border-box;
 }
 
@@ -376,8 +377,8 @@ footer .link-footer ul li{
   .main-container{
     padding:0 50px 0 50px;
   }
-  .menu li a:hover::before {
-            content: '';
+  ul.menu li a:hover::before {
+          content: '';
             position: absolute;
             top: 0;
             left: 0;
@@ -390,9 +391,6 @@ footer .link-footer ul li{
   }
   .activites .colum .card img {
       height: 100%;
-  }
-  section{
-    border-radius:15px;
   }
 }
 /* Medium devices (tablets, less/equal than 1024px) */
