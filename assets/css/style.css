@@ -376,7 +376,7 @@ footer .link-footer ul li{
   .main-container{
     padding:0 50px 0 50px;
   }
-  .menu a:hover::before {
+  .menu li a:hover::before {
             content: '';
             position: absolute;
             top: 0;
