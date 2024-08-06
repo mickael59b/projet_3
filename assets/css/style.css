@@ -81,6 +81,7 @@ ul.menu li{
 ul.menu li:hover::before{
   content: '';
   position: absolute;
+  top:0;
   right: 0;
   width: 100%;
   height: 3px; /* Vous pouvez changer l'épaisseur de la bordure ici */
@@ -226,6 +227,7 @@ ul.menu li:hover::before{
   background-color: var(--main-bg-color);
   padding: 30px;
   box-sizing: border-box;
+  border-radius: 15px;
 }
 
 /****** Hebergements ***********/
@@ -331,6 +333,7 @@ ul.menu li:hover::before{
 .activites .colum .card img{
   object-fit: cover;
   width: 100%;
+  height: 100%;
   border-radius: 16px 16px 0px 0px;
 }
 .activites .colum .card .card-body{
@@ -339,6 +342,7 @@ ul.menu li:hover::before{
   font-size: 1.13vmax;
   padding:20px;
   bottom: 0;
+  position: absolute;
   background:#fff;
   width: 100%;
   height:60px;
@@ -380,31 +384,10 @@ footer .link-footer ul li{
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-/* Large devices (desktops, greater/equal than 1025px) */
-@media (min-width: 1024px) {
-  .main-container{
-    padding:0 50px 0 50px;
-  }
-  ul.menu li:hover::before{
-    top: 0;
-  }
-  .hebergements-and-populaires section{
-    border-radius: 15px;
-  }
-  .activites .colum .card .card-body{
-    position: absolute;
-  }
-  .activites .colum .card img {
-      height: 100%;
-  }
-}
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (min-width:768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .main-container{
     padding:0 50px 0 50px;
-  }
-  ul.menu li:hover::before{
-    top: 0;
   }
   .filtre{
     display:block
@@ -417,9 +400,6 @@ footer .link-footer ul li{
     grid-gap: 20px;
     grid-template-columns:1fr;
   }
-  section{
-    border-radius:15px;
-  }
   .hebergements,.populaires{
     width:100%;
   }
@@ -428,7 +408,7 @@ footer .link-footer ul li{
     gap:20px;
   }
   .populaires-cards .card {
-    max-width:274.67px;
+    max-width: 274.67px;
   }
 
 }
@@ -453,6 +433,7 @@ footer .link-footer ul li{
   }
   ul.menu li:hover::before{
     bottom: 0;
+    top: unset;
   }
   .main-container{
       padding: 0;
@@ -513,13 +494,15 @@ footer .link-footer ul li{
   }
   section{
     width: 100%;
-    border-radius: 0px;
     margin-left: 0px;
-    border-radius:0;
+    border-radius: 0!important;
     padding: 30px 20px 30px 20px;
   }
   .populaires-cards, .colum ,footer{
       display: block !important;
+  }
+  .populaires-cards .card {
+    max-width: 100%;
   }
   .hebergements{
       background-color: transparent !important;
@@ -534,6 +517,9 @@ footer .link-footer ul li{
   }
   .activites .colum .card .card-body{
     position:unset;
+  }
+  .activites .colum .card img{
+    height: 141px;
   }
   .link-footer{
       width: 100% !important;
